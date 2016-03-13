@@ -12,3 +12,8 @@ SphereTracking.cpp
     moments_calulator --- used for first order statistic calculation 
     coordinates_marker  --- used to get coordinates of the marker in the image plane
     SerialDataParse --- parse incoming data from the serial port
+    
+geometry.cpp
+    marker_global_orientation -- get global coordinates of the marker using image coordinates 
+                                  from object detection tool and incming tachymeter data from serial port
+    camera_orientation  --- returns orientation of the camera in the global coordinates                       
